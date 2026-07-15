@@ -1,0 +1,6 @@
+{
+  "name": "BrandCraft",
+  "description": "Professional Logos & Posters. Done in minutes, not days.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

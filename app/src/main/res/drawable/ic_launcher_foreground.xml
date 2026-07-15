@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background subtle circular glow -->
+    <path
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="40"
+                android:type="radial">
+                <item android:offset="0.0" android:color="#2238BDF8" />
+                <item android:offset="1.0" android:color="#00000000" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Star Glow (AI Sparkle) Top Right -->
+    <path
+        android:fillColor="#C084FC"
+        android:pathData="M72,28 C72,28 74,33 79,35 C74,37 72,42 72,42 C72,42 70,37 65,35 C70,33 72,28 72,28 Z" />
+
+    <!-- Stylized "B" and Pencil Tip / Brush geometric logo mark -->
+    <!-- Outer Ring segments -->
+    <path
+        android:pathData="M54,24 C62.3,24 69.8,27.4 75.2,32.8 L66.7,41.3 C63.5,38.1 59.0,36.1 54,36.1 C44.1,36.1 36.1,44.1 36.1,54 C36.1,63.9 44.1,71.9 54,71.9 C59.0,71.9 63.5,69.9 66.7,66.7 L75.2,75.2 C69.8,80.6 62.3,84 54,84 C37.4,84 24,70.6 24,54 C24,37.4 37.4,24 54,24 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="75"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core: Pen Tip / Creative Node inside -->
+    <path
+        android:pathData="M54,42 L66,54 L54,66 L42,54 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="42"
+                android:endX="66"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#E879F9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Accent Dot -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,54m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+</vector>
